@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { db } from '../../lib/db';
+import { db } from '@lib/db';   // ← change this line
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const demo = process.env.DEMO_MODE === 'true';
