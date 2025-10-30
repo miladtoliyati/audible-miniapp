@@ -1,11 +1,12 @@
+// lib/x402.ts
 export type X402Request = {
   to: string;
   chain: 'base';
   asset: 'USDC';
-  amount: string; // e.g., '2.00'
+  amount: string;            // e.g., '2.00'
   memo?: string;
   callback_url?: string;
-  expires_at?: number; // epoch seconds
+  expires_at?: number;       // epoch seconds
 };
 
 export function buildX402Uri(req: X402Request): string {
