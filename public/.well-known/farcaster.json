@@ -1,0 +1,7 @@
+{
+  "name": "Audible Discovery + x402 Rewards (Base)",
+  "description": "Discover titles. Buy on Audible. Claim on-chain add-ons and rewards.",
+  "url": "https://audible-miniapp-ulox.vercel.app",
+  "icon": "https://audible-miniapp-ulox.vercel.app/icon.png",
+  "primaryColor": "#0052FF"
+}
