@@ -1,0 +1,25 @@
+{
+  "name": "base-x402-audible-miniapp",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "wagmi": "2.12.10",
+    "viem": "2.9.32",
+    "zustand": "4.5.2",
+    "axios": "1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.74",
+    "typescript": "5.4.5"
+  }
+}
