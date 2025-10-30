@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import db from '@lib/db';                 // ✅ correct module for db
-import { buildX402Uri } from '@lib/x402'; // ✅ x402 stays here
+import { db } from '@lib/db';            // ← change: named import
+import { buildX402Uri } from '@lib/x402';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') return res.status(405).end();
